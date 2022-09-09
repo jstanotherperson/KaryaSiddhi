@@ -1,0 +1,25 @@
+.header{
+    height:70px;
+    // padding:5px;
+    background-color: #044d66;
+    margin:0px;
+    border-bottom:solid rgb(12, 12, 164);
+    display:block;
+    width:100%;
+    
+}
+
+.headercontent{
+    color:white;
+    text-align:left;
+    width:100%;
+    display:flex;
+    font-size: 24px;
+    font-family: Inter;
+    
+}
+#icon{
+    font-size:24px;
+    padding-right: 20px;
+    padding-left:20px;
+}

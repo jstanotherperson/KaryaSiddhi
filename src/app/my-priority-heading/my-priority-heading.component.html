@@ -1,0 +1,28 @@
+<div class="heading">
+    <span id="bold">{{tempTask.title}} </span>
+    <span>{{tempTask.description}}</span>
+    <!-- <span><i class="fa-thin fa-circle-plus"></i>
+    </span> -->
+    <span class="material-icons" (click)="display()">add_circle_outline</span>
+
+</div>
+<div id="displayform" *ngIf="isClicked">
+    <form action="">
+        <h3>New Task</h3>
+        <label for="title">Title</label><br>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="desc">Description</label><br>
+        <input type="text" id="desc" name="desc"><br><br>
+        <label for="priority">Priority</label><br>
+        <input type="text" id="priority" name="priority"><br><br>
+        <label for="due">Due</label><br>
+        <input type="text" id="due" name="due"><br>
+        <br>
+        <br>
+
+        <input class="buttons" type="save" value="Save">
+        <input class="buttons" type="close" value="Close">
+
+
+    </form>
+</div>

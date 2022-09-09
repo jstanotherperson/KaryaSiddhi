@@ -1,0 +1,31 @@
+.dashboard
+{
+    padding:10px;
+    font-family:Inter;
+    font-size: 30px;
+}
+.greeting{
+    font-family:Inter;
+    text-align: center;
+    padding:0px;
+
+}
+.taskbarlist {
+    width:100%;
+    justify-content: center;
+    
+}
+.my-priority-heading{
+    width:100%;
+    margin:20px;
+}
+// .task-display-table{
+//     overflow: auto;
+// }
+.task-display-table{
+    width:100%;
+    display:block;
+    align-items: center;
+    
+
+}

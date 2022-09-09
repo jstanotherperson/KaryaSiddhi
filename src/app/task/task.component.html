@@ -1,0 +1,23 @@
+<div class="dashboard">
+    <p>Dasboard</p>
+</div>
+<div class="greeting">
+    <h3>{{date | date:'fullDate'}}</h3>
+    <h1>{{greetingMsg()}} , Mahima</h1>
+</div>
+<div class="taskbarlist">
+    <app-task-bar-list></app-task-bar-list>
+
+</div>
+<div class="my-priority-heading">
+    <div *ngFor="let taskheading of taskHeadingList">
+        <app-my-priority-heading [tempTask]="taskheading"></app-my-priority-heading>
+    </div>
+    
+</div>
+<div class="task-display-table">
+    <div  *ngFor="let task of taskList">
+       <app-single-task [tempTask]="task"></app-single-task>
+    </div>
+    <!-- <app-task-display-table></app-task-display-table> -->
+</div>

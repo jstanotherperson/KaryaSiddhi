@@ -1,0 +1,39 @@
+.mainbox{
+    margin:0px;
+    height:calc(100vh - 119px);
+    display:block;
+    border:#044d66;
+    overflow:auto;
+}
+.tasksection{
+    height:calc( 100% - 40px);
+    width:100%;
+    margin:0px;
+
+}
+
+.title{
+    padding:10px;
+    font-family:Inter;
+    font-size: 30px;
+}
+.my-priority-heading{
+    width:100%;
+    margin:20px;
+}
+.task-display-table{
+    width:100%;
+    display:block;
+    align-items: center;
+    
+
+}
+.footersection{
+    background-color: white;
+    height:40px;
+    width:100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    border:1px solid  #044d66;
+}

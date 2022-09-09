@@ -1,0 +1,110 @@
+.taskitem{
+    width:100%;
+    display:flex;
+    align-items: center;
+    text-align: left;
+    // margin:20px;
+    
+}
+.first{
+    display:inline-block;
+    width:10%;
+    text-align: center;
+    // justify-content: left;
+}
+.second{
+    display:inline-block;
+    width:60%;
+    // text-align: left;
+}
+.third{
+    display:inline-block;
+    width:30%;
+    // text-align: center;
+}
+#icon{
+    width:10%;
+    // text-align: center;
+    color: rgb(9, 191, 9);
+    display:inline-block;
+}
+#title{
+    width:50%;
+    // text-align: left;
+    display:inline-block;
+}
+#description{
+    width:50%;
+    // text-align: left;
+    display:inline-block;
+}
+#date{
+    width:80%;
+    text-align: center;
+    display:inline-block;
+}
+#arrow{
+    width:20%;
+    // text-align: left;
+    display:inline-block;
+}
+
+@media only screen and (max-width: 882px) {
+    .taskitem{
+        width:100%;
+       display:block;
+       
+       
+
+    }
+    .first{
+        width:10%;
+        display:inline-block;
+        justify-content: center;
+    }
+    .second{
+        width:60%;
+        display:inline-block;
+    }
+    .third{
+        width:30%;
+        display:inline-block;
+    }
+    #title{
+        width:100%;
+        display:block;
+       
+        
+    }
+    #date{
+        width:100%;
+        display:block;
+       
+    }
+    
+    #icon{
+        // width:10%;
+        display:inline-block;
+        justify-content: center;
+        
+        
+    }
+    #description{
+        width:100%;
+        display:block;
+        
+        
+    }
+    #arrow{
+        width:100%;
+        display:block;
+       text-align: center;
+      
+    }
+    
+    .bottomdown{
+        display:block;
+    }
+
+    
+  }

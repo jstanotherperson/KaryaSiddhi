@@ -1,0 +1,54 @@
+<div class="mainbox">
+    <div class="tasksection">
+        <div class="title">
+            <p>My Tasks</p>
+        </div>
+    <div class="tasks">
+        <div class="my-priority-heading">
+            <div *ngFor="let taskheading of taskHeadingList">
+                <app-my-priority-heading [tempTask]="taskheading"></app-my-priority-heading>
+            </div>      
+            
+        </div>
+        <div class="task-display-table">
+            <div  *ngFor="let task of taskList">
+               <app-single-task [tempTask]="task"></app-single-task>
+            </div>
+            <!-- <app-task-display-table></app-task-display-table> -->
+        </div>
+        <div class="my-priority-heading">
+            <div *ngFor="let taskheading of taskHeadingList">
+                <app-my-priority-heading [tempTask]="taskheading"></app-my-priority-heading>
+            </div>      
+            
+        </div>
+        <div class="task-display-table">
+            <div  *ngFor="let task of taskList">
+               <app-single-task [tempTask]="task"></app-single-task>
+            </div>
+            <!-- <app-task-display-table></app-task-display-table> -->
+        </div>
+        <div class="my-priority-heading">
+            <div *ngFor="let taskheading of taskHeadingList">
+                <app-my-priority-heading [tempTask]="taskheading"></app-my-priority-heading>
+            </div>      
+            
+        </div>
+        <div class="task-display-table">
+            <div  *ngFor="let task of taskList">
+               <app-single-task [tempTask]="task"></app-single-task>
+            </div>
+            <!-- <app-task-display-table></app-task-display-table> -->
+        </div>
+    </div>
+            
+        
+    </div>
+    <div class="footersection">
+        <app-footer></app-footer>
+    </div>
+    
+</div>
+
+
+

@@ -1,0 +1,22 @@
+.mainbox{
+    margin:0px;
+    height:calc(100vh - 119px);
+
+    border:#044d66;
+    
+}
+.tasksection{
+    height:calc( 100% - 40px);
+    width:100%;
+    margin:0px;
+
+}
+.footersection{
+    background-color: white;
+    height:40px;
+    width:100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    border:1px solid  #044d66;
+}

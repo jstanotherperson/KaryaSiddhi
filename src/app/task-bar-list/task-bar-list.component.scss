@@ -1,0 +1,33 @@
+.tl{
+    display:flex;
+    width:100%;
+    
+}
+#thisweek{
+    width:35%;
+    text-align:center;
+    
+
+}
+#completed{
+    width:30%;
+    display:flex;
+    align-items: center;
+    
+
+}
+.material-icons{
+    color:green;
+}
+#assigned{
+    width:35%;
+    text-align:center;
+
+}
+#greentick{
+    color:green;
+}
+.bold{
+    font-size: large;
+    font-weight: 550;
+}
